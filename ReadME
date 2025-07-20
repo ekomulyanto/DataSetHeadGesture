@@ -10,15 +10,9 @@ You can download the dataset via Google Drive:
 
 ⬇️ [Direct Download ](https://drive.google.com/uc?export=download&id=1pykGnzbCMvYEbbbE5pCh8yo7yijqlEEb)
 
-
-
----
-
 ## 📋 Description
 
-This dataset is designed for machine learning and deep learning tasks related to head gesture classification. It may include images, videos, or numerical features depending on your application.
-
----
+This dataset is designed for machine learning and deep learning tasks related to head gesture classification. It may include images or numerical features depending on your application.
 
 ## 📄 License
 MIT License
