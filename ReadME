@@ -12,7 +12,21 @@ You can download the dataset via Google Drive:
 
 ## 📋 Description
 
-This dataset is designed for machine learning and deep learning tasks related to head gesture classification. 
+This dataset is designed for machine learning and deep learning tasks related to head gesture classification. Each gesture sequence is captured as **60 image frames**, recorded at a **framerate of 20 FPS** (i.e., covering approximately 3 seconds per gesture).
+
+## 🏷️ Class Details
+
+The dataset consists of six classes, each representing a different head gesture or detection state:
+
+| Label           | Description                                                               |
+|------------------|---------------------------------------------------------------------------|
+| **Kiri**         | Head shakes twice to the **left**.                                        |
+| **Kanan**        | Head shakes twice to the **right**.                                       |
+| **Maju**         | Head nods **upward twice** (looking up).                                  |
+| **Mundur/Stop**  | Head tilts **backward** or represents a stop signal.                      |
+| **Normal**       | Head in **natural or idle position** without specific gestures.           |
+| **Nan**          | **Pose not detected**; keypoints missing or undetected by the tracker.    |
+
 ## 📄 License
 
 Copyright (c) 2025 Eko Mulyanto
@@ -21,6 +35,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 THE DATASET IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
+---
 
 ## 🙋‍♂️ Author
 
